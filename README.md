@@ -1,14 +1,14 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Wamae-Portfolio
+# Ben Wamae Portfolio
 
-> Portfolio Project To Showcase Projects
+> Portfolio Project To Showcase Bootstrap usage
 
 
 ## Built With
 
 - Html
-- Css
+- Css & Bootstrap
 
 
 
@@ -24,18 +24,23 @@ To get a local copy up and running follow these simple example steps.
 
 ### Setup
 	Clone this repository
-	git clone https://github.com/MosDevx/Wamae-Portfolio.git
+	git clone https://github.com/MosDevx/Ben-Wamae-Portfolio.git
 
 ### Install
-	Open Html file in preferred browser
+	Open index.html file in preferred browser
 
 ### Deployment
-  [Live Demo Link](https://mosdevx.github.io/Wamae-Portfolio/)
+  [Live Demo Link](https://mosdevx.github.io/Ben-Wamae-Portfolio/)
 
 ## Authors
 
 👤 **Author1**
 
+- GitHub: [@mosdevx](https://github.com/mosdevx)
+- Twitter: [@moseswamae7](https://twitter.com/moseswamae7)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/moses-wamae-a13a67244)
+
+👤 **Author2**
 - GitHub: [@mosdevx](https://github.com/mosdevx)
 - Twitter: [@moseswamae7](https://twitter.com/moseswamae7)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/moses-wamae-a13a67244)
