@@ -20,7 +20,9 @@
 			<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
 		<![endif]-->
 			
-			<section class="container-fluid d-flex flex-column min-vh-100" id="homePage">
+			<section class="bg-image container-fluid d-flex flex-column min-vh-100" id="homePage"
+				style="background-image:url(/Assets/Images/desktop-backround-header.png);background-size: cover; background-repeat: no-repeat;"
+			>
 				
 					<nav class="navbar navbar-expand-sm b">
 						<div class="container-fluid">
@@ -91,12 +93,12 @@
 
 			<section class="container-fluid d-flex flex-column my-5" id="projects">
 					<!-- one card element -->
-					<div class="container border d-flex p-4 gap-4 m-2 row" >
-						<div class="col">
+					<div class="container border d-flex p-4 gap-4 m-1 row" >
+						<div class="col-sm-6">
 							<img class="img-fluid"src="Assets/Images/nature.png" alt=""/>
 						</div>
 						
-						<div class=" col align-self-start">
+						<div class=" col-sm-4">
 							<h3 class="h3 fw-bold">Tonic</h3>
 							<ul class="d-flex list-unstyled p-0 gap-3">
 								<li>CANOPY</li>
@@ -118,12 +120,12 @@
 					<!-- end one card element -->
 					
 					<!-- one card element -->
-					<div class="container d-flex flex-row-reverse p-4 gap-4 m-2 border row" >
-						<div class="col">
+					<div class="container d-flex flex-row-reverse p-4 gap-4 m-1 border row" >
+						<div class="col-sm-6">
 							<img class="img-fluid" src="Assets/Images/face.png" alt=""/>
 						</div>
 						
-						<div class=" col">
+						<div class=" col-sm-4">
 							<h3 class="h3 fw-bold">Tonic</h3>
 							<ul class="d-flex list-unstyled p-0 gap-3">
 								<li>CANOPY</li>
@@ -145,12 +147,12 @@
 					<!-- end one card element -->
 					
 					<!-- one card element -->
-					<div class="container d-flex p-4 gap-4 m-2 border row" >
-						<div class="col">
+					<div class="container d-flex p-4 gap-4 mx-1 border row" >
+						<div class="col-sm-6">
 							<img class="img-fluid" src="Assets/Images/organizer.png" alt=""/>
 						</div>
 						
-						<div class="col">
+						<div class="col-sm-4">
 							<h3 class="h3 fw-bold">Tonic</h3>
 							<ul class="d-flex list-unstyled p-0 gap-3">
 								<li>CANOPY</li>
@@ -172,12 +174,12 @@
 					<!-- end one card element -->
 
 					<!-- one card element -->
-					<div class="container d-flex flex-row-reverse p-4 gap-4 m-2 border row" >
-						<div class="col">
+					<div class="container d-flex flex-row-reverse p-4 gap-4 m-1 border row" >
+						<div class="col-sm-6 ">
 							<img class="img-fluid" src="Assets/Images/art.png" alt=""/>
 						</div>
 						
-						<div class="col">
+						<div class="col-sm-4">
 							<h3 class="h3 fw-bold">Tonic</h3>
 							<ul class="d-flex list-unstyled p-0 gap-3">
 								<li>CANOPY</li>
@@ -309,18 +311,20 @@
 				</div>
 			</section>
 
-			<section class="container-fluid mt-5 min-vh-100" id="contact">
+			<section class="container-fluid mt-5 min-vh-100" id="contact"
+				style="background-color:#6070FF;background-image:url(/Assets/Images/desktop-contact-form-bg.png);background-size:cover;background-repeat:no-repeat;border-radius: 60px 0 0 0;"
+			>
 				<div class="container d-flex flex-column align-items-center">
 					<h2 class="h2 fw-bold">Contact me</h2>
 					<p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
 					<form action="" class="d-flex flex-column align-items-center">
-						<input type="text" class="form-contro mb-3 w-100" name="full-name" id="full-name" placeholder="Enter Full Name" required/>		
+						<input type="text" class="form-control mb-3gti  w-100" name="full-name" id="full-name" placeholder="Enter Full Name" required/>		
 						
 						<input type="email" class="form-control mb-3 w-100" name="email" id="email" placeholder="Enter Email" required/>
 						
 						<textarea class="form-control mb-3 w-100" name="message" id="message" cols="30" rows="10" placeholder="Write your message here"></textarea>
 						
-					<button type="submit" class="btn btn-outline-primary " value="Get in Touch">Get in Touch</button>
+					<button type="submit" class="btn btn-outline-light " value="Get in Touch">Get in Touch</button>
 					</form>
 				</div>
 			</section>
