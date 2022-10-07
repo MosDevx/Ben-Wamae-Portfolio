@@ -20,60 +20,64 @@
 			<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
 		<![endif]-->
 			
-			<section class="container-fluid d-flex flex-column  min-vh-100" id="homePage">
-				<header>
-					<nav class="navbar navbar-expand-sm bg-light">
+			<section class="container-fluid d-flex flex-column min-vh-100" id="homePage">
+				
+					<nav class="navbar navbar-expand-sm b">
 						<div class="container-fluid">
 							<a class="navbar-brand" href="">
-								<span>My Logo</span>
+								<span class="fw-bold">My Logo</span>
 							</a>
-							
-							<ul class="navbar-nav list-unstyled d-flex">
-								<li class="nav-item">
-									<a href="" class="nav-link">Portfolio</a>
-								</li>
-								<li class="nav-item">
-									<a href="" class="nav-link">About</a>
-								</li>
-								<li class="nav-item">
-									<a href="" class="nav-link">Contact</a>
-								</li>
-							</ul>
+							<button class="navbar-toggler navbar-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+								<span class="navbar-toggler-icon"></span>
+							</button>
+							<div class="collapse navbar-collapse" id="collapsibleNavbar">
+								<ul class="navbar-nav list-unstyled ms-auto">
+									<li class="nav-item">
+										<a href="" class="nav-link">Portfolio</a>
+									</li>
+									<li class="nav-item">
+										<a href="" class="nav-link">About</a>
+									</li>
+									<li class="nav-item">
+										<a href="" class="nav-link">Contact</a>
+									</li>
+								</ul>
+							</div>
 						</div>
 
 					</nav>
-				</header>
+			
 
-				<section class="container d-flex flex-column  ">
-						<h1 class="h1">I’m Alexandra<br/>Glad to see you!</h1>
-						<p>I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
-
-						<p>LET’S CONNECT</p>
-						<div>
+				<section class="container d-flex flex-column align-middle flex-grow-1 justify-content-center  p-5 ">
+						<h1 class="h1 m-4 fw-bold">I’m Alexandra<br/>Glad to see you!</h1>
+						<p class=" m-4">I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
+					
+						<p class="m-4">LET’S CONNECT</p>
+						<div class="m-4">
 							<ul class="list-unstyled d-flex gap-3">
 								<li>
 									<a href="">
-										<i class="fa-brands fa-twitter"></i>
+										<i class="fa-brands fa-l fa-twitter"></i>
 									</a>
 								</li>
 								<li>
 									<a href="">
-										<i class="fa-brands fa-github"></i>
+										<i class="fa-brands fa-l fa-github"></i>
 									</a>
 								</li>
 								<li>
 									<a href="">
-										<i class="fa-brands fa-medium"></i>
+										<i class="fa-brands fa-l fa-medium"></i>
 									</a>
 								</li>
 								<li>
 									<a href="">
-										<i class="fa-brands fa-angellist"></i>
+										<i class="fa-brands fa-l fa-angellist"></i>
 									</a>
 								</li>
 								<li>
 									<a href="">
-										<i class="fa-brands fa-linkedin-in"></i>
+										<i class="fa-brands fa-l fa-linkedin-in"></i>
 									</a>
 								</li>
 							</ul>
@@ -85,15 +89,15 @@
 			</section>
 
 
-			<section class="container-fluid d-flex flex-column min-vh-100" id="projects">
+			<section class="container-fluid d-flex flex-column my-5" id="projects">
 					<!-- one card element -->
-					<div class="container d-flex p-4 gap-4" >
-						<div>
-							<img src="Assets/Images/nature.png" alt=""/>
+					<div class="container border d-flex p-4 gap-4 m-2 row" >
+						<div class="col">
+							<img class="img-fluid"src="Assets/Images/nature.png" alt=""/>
 						</div>
 						
-						<div class="m-4">
-							<h3 class="h3">Tonic</h3>
+						<div class=" col align-self-start">
+							<h3 class="h3 fw-bold">Tonic</h3>
 							<ul class="d-flex list-unstyled p-0 gap-3">
 								<li>CANOPY</li>
 								•
@@ -114,13 +118,13 @@
 					<!-- end one card element -->
 					
 					<!-- one card element -->
-					<div class="container d-flex flex-row-reverse p-4 gap-4 " >
-						<div>
-							<img src="Assets/Images/face.png" alt=""/>
+					<div class="container d-flex flex-row-reverse p-4 gap-4 m-2 border row" >
+						<div class="col">
+							<img class="img-fluid" src="Assets/Images/face.png" alt=""/>
 						</div>
 						
-						<div class="m-4">
-							<h3 class="h3">Tonic</h3>
+						<div class=" col">
+							<h3 class="h3 fw-bold">Tonic</h3>
 							<ul class="d-flex list-unstyled p-0 gap-3">
 								<li>CANOPY</li>
 								•
@@ -141,13 +145,13 @@
 					<!-- end one card element -->
 					
 					<!-- one card element -->
-					<div class="container d-flex p-4 gap-4 " >
-						<div>
-							<img src="Assets/Images/organizer.png" alt=""/>
+					<div class="container d-flex p-4 gap-4 m-2 border row" >
+						<div class="col">
+							<img class="img-fluid" src="Assets/Images/organizer.png" alt=""/>
 						</div>
 						
-						<div class="m-4">
-							<h3 class="h3">Tonic</h3>
+						<div class="col">
+							<h3 class="h3 fw-bold">Tonic</h3>
 							<ul class="d-flex list-unstyled p-0 gap-3">
 								<li>CANOPY</li>
 								•
@@ -168,13 +172,13 @@
 					<!-- end one card element -->
 
 					<!-- one card element -->
-					<div class="container d-flex flex-row-reverse p-4 gap-4 " >
-						<div>
-							<img src="Assets/Images/art.png" alt=""/>
+					<div class="container d-flex flex-row-reverse p-4 gap-4 m-2 border row" >
+						<div class="col">
+							<img class="img-fluid" src="Assets/Images/art.png" alt=""/>
 						</div>
 						
-						<div class="m-4">
-							<h3 class="h3">Tonic</h3>
+						<div class="col">
+							<h3 class="h3 fw-bold">Tonic</h3>
 							<ul class="d-flex list-unstyled p-0 gap-3">
 								<li>CANOPY</li>
 								•
@@ -195,11 +199,11 @@
 					<!-- end one card element -->
 			</section>
 
-			<section class="container-fluid mt-5"  id="about-me">
+			<section class="container-fluid mt-5 "  id="about-me">
 				
 				<div class="container row mx-auto">
-				<div class="col">
-					<h2>About Myself</h2>
+				<div class="col my-4">
+					<h2 class="h2 fw-bold">About Myself</h2>
 					<p>Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
 					<p>LET’S CONNECT</p>
 					<div>
@@ -236,7 +240,7 @@
 				</div>
 
 				
-				<div class="col">
+				<div class="col my-4">
 						<div id="accordion">
 								<div class="card">
 									<div class="card-header">
@@ -280,7 +284,8 @@
 									</div></div>
 									<div id="frameworks" class="collapse" data-bs-parent="#accordion">
 										<div class="card-body">
-											I have used so many frameworks
+											I have used so many frameworks. <br/>
+											I actually had to make a framework for my frameworks.
 										</div>
 									</div>
 								</div>
@@ -306,7 +311,7 @@
 
 			<section class="container-fluid mt-5 min-vh-100" id="contact">
 				<div class="container d-flex flex-column align-items-center">
-					<h2>Contact me</h2>
+					<h2 class="h2 fw-bold">Contact me</h2>
 					<p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
 					<form action="" class="d-flex flex-column align-items-center">
 						<input type="text" class="form-contro mb-3 w-100" name="full-name" id="full-name" placeholder="Enter Full Name" required/>		
